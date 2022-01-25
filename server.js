@@ -111,7 +111,7 @@ app.post('/signup', function (req, res) {
 
 
 if(process.env.NODE_ENV==="production"){
-  app.use(express.static("frontent/build"));
+  app.use(express.static("client/build"));
   
 }
 
